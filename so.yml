@@ -1,0 +1,66 @@
+proxy-groups:
+  - name: https://binance.ankr.com/
+    type: url-test
+    proxies: []
+    url: https://binance.ankr.com/
+    interval: 300
+  - name: https://bsc-dataseed1.binance.org
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed1.binance.org
+    interval: 300
+  - name: https://bsc-dataseed2.binance.org
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed2.binance.org
+    interval: 300
+  - name: https://bsc-dataseed3.binance.org
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed3.binance.org
+    interval: 300
+  - name: https://bsc-dataseed4.binance.org
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed4.binance.org
+    interval: 300
+  - name: https://bsc-dataseed1.defibit.io
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed1.defibit.io
+    interval: 300
+  - name: https://bsc-dataseed2.defibit.io
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed2.defibit.io
+    interval: 300
+  - name: https://bsc-dataseed3.defibit.io
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed3.defibit.io
+    interval: 300
+  - name: https://bsc-dataseed4.defibit.io
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed4.defibit.io
+    interval: 300
+  - name: https://bsc-dataseed1.ninicoin.io
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed1.ninicoin.io
+    interval: 300
+  - name: https://bsc-dataseed2.ninicoin.io
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed2.ninicoin.io
+    interval: 300
+  - name: https://bsc-dataseed3.ninicoin.io
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed3.ninicoin.io
+    interval: 300
+  - name: https://bsc-dataseed4.ninicoin.io
+    type: url-test
+    proxies: []
+    url: https://bsc-dataseed4.ninicoin.io
+    interval: 300
