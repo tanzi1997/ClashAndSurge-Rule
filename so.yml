@@ -1,67 +1,188 @@
 proxy-groups:
   - name: binance-ankr-com/
     type: url-test
-    proxies: []
+    proxies: &ref_0
+      - 🇷🇺 俄罗斯 AIA [East]
+      - 🇷🇺 俄罗斯 AIA [North]
+      - 🇷🇺 俄罗斯 AIA [South]
+      - 🇨🇦 加拿大 AWS
+      - 🇮🇳 印度 AWS
+      - 🇨🇳 台湾 AIA [East]
+      - 🇨🇳 台湾 AIA [North]
+      - 🇨🇳 台湾 AIA [South]
+      - 🇨🇳 台湾 BGP [01]
+      - 🇨🇳 台湾 BGP [02]
+      - 🇨🇳 台湾 CHT [01]
+      - 🇨🇳 台湾 CHT [02]
+      - 🇨🇳 台湾 CHT [03]
+      - 🇨🇳 台湾 CHT [04]
+      - 🇨🇳 台湾 CHT [05]
+      - 🇨🇳 台湾 CHT [06]
+      - 🇨🇳 台湾 NTT
+      - 🇨🇳 台湾 Seed
+      - 🇧🇷 巴西 Azure
+      - 🇩🇪 德国 AIA [East]
+      - 🇩🇪 德国 AIA [North]
+      - 🇩🇪 德国 AIA [South]
+      - 🇩🇪 德国 BGP [01]
+      - 🇩🇪 德国 BGP [02]
+      - 🇩🇪 德国 GIA [01]
+      - 🇩🇪 德国 GIA [02]
+      - 🇩🇪 德国 NTT [01]
+      - 🇩🇪 德国 NTT [02]
+      - 🇸🇬 新加坡 AIA [East]
+      - 🇸🇬 新加坡 AIA [North]
+      - 🇸🇬 新加坡 AIA [South]
+      - 🇸🇬 新加坡 Aliyun
+      - 🇸🇬 新加坡 BGP [01]
+      - 🇸🇬 新加坡 BGP [02]
+      - 🇸🇬 新加坡 HC
+      - 🇸🇬 新加坡 IEPL
+      - 🇸🇬 新加坡 NTT [03]
+      - 🇯🇵 日本 5G [01]
+      - 🇯🇵 日本 5G [02]
+      - 🇯🇵 日本 AIA [East]
+      - 🇯🇵 日本 AIA [North]
+      - 🇯🇵 日本 AIA [South]
+      - 🇯🇵 日本 BGP [01]
+      - 🇯🇵 日本 BGP [02]
+      - 🇯🇵 日本 HC
+      - 🇯🇵 日本 IEPL
+      - 🇯🇵 日本 KDDI
+      - 🇯🇵 日本 NTT [01]
+      - 🇯🇵 日本 NTT [02]
+      - 🇯🇵 日本 NTT [03]
+      - 🇯🇵 日本 NTT [04]
+      - 🇯🇵 日本 NTT [05]
+      - 🇯🇵 日本 NTT [06]
+      - 🇦🇺 澳大利亚 AWS
+      - 🇺🇸 美国 5G [01]
+      - 🇺🇸 美国 5G [02]
+      - 🇺🇸 美国 AIA [East]
+      - 🇺🇸 美国 AIA [North]
+      - 🇺🇸 美国 AIA [South]
+      - 🇺🇸 美国 BGP [01]
+      - 🇺🇸 美国 BGP [02]
+      - 🇺🇸 美国 GIA
+      - 🇺🇸 美国 NTT [01]
+      - 🇺🇸 美国 NTT [02]
+      - 🇺🇸 美国 NTT [03]
+      - 🇺🇸 美国 NTT [04]
+      - 🇺🇸 美国 NTT [05]
+      - 🇺🇸 美国 NTT [06]
+      - 🇺🇸 美国 NTT [07]
+      - 🇬🇧 英国 5G
+      - 🇬🇧 英国 AIA [East]
+      - 🇬🇧 英国 AIA [North]
+      - 🇬🇧 英国 AIA [South]
+      - 🇬🇧 英国 BGP [01]
+      - 🇬🇧 英国 BGP [02]
+      - 🇬🇧 英国 Cogent
+      - 🇬🇧 英国 NTT [01]
+      - 🇬🇧 英国 NTT [02]
+      - 🇵🇭 菲律宾 ETPI
+      - 🇰🇷 韩国 5G
+      - 🇰🇷 韩国 AIA [East]
+      - 🇰🇷 韩国 AIA [North]
+      - 🇰🇷 韩国 AIA [South]
+      - 🇰🇷 韩国 BGP [01]
+      - 🇰🇷 韩国 BGP [02]
+      - 🇰🇷 韩国 NTT [01]
+      - 🇰🇷 韩国 NTT [02]
+      - 🇰🇷 韩国 NTT [03]
+      - 🇰🇷 韩国 NTT [04]
+      - 🇰🇷 韩国 NTT [05]
+      - 🇭🇰 香港 AIA [East]
+      - 🇭🇰 香港 AIA [North]
+      - 🇭🇰 香港 AIA [South]
+      - 🇭🇰 香港 BGP [01]
+      - 🇭🇰 香港 BGP [02]
+      - 🇭🇰 香港 HC [01]
+      - 🇭🇰 香港 HC [02]
+      - 🇭🇰 香港 HKT [01]
+      - 🇭🇰 香港 HKT [02]
+      - 🇭🇰 香港 HKT [03]
+      - 🇭🇰 香港 HKT [04]
+      - 🇭🇰 香港 HKT [05]
+      - 🇭🇰 香港 HKT [06]
+      - 🇭🇰 香港 HKT [07]
+      - 🇭🇰 香港 HKT [08]
+      - 🇭🇰 香港 IEPL [01]
+      - 🇭🇰 香港 IEPL [02]
+      - 🇭🇰 香港 IEPL [03]
+      - 🇭🇰 香港 IEPL [04]
+      - 🇭🇰 香港 IEPL [05]
+      - 🇭🇰 香港 IEPL [06]
+      - 🇭🇰 香港 NTT [01]
+      - 🇭🇰 香港 NTT [02]
+      - 🇭🇰 香港 NTT [03]
+      - 🇭🇰 香港 NTT [04]
+      - 🇭🇰 香港 NTT [05]
+      - 🇭🇰 香港 NTT [06]
+      - 🇭🇰 香港 NTT [07]
+      - 🇭🇰 香港 NTT [08]
+      - 🇭🇰 香港 NTT [09]
+      - 🇭🇰 香港 WTT
     url: https://binance.ankr.com/
     interval: 300
   - name: bsc-dataseed1-binance-org
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed1.binance.org
     interval: 300
   - name: bsc-dataseed2-binance-org
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed2.binance.org
     interval: 300
   - name: bsc-dataseed3-binance-org
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed3.binance.org
     interval: 300
   - name: bsc-dataseed4-binance-org
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed4.binance.org
     interval: 300
   - name: bsc-dataseed1-defibit-io
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed1.defibit.io
     interval: 300
   - name: bsc-dataseed2-defibit-io
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed2.defibit.io
     interval: 300
   - name: bsc-dataseed3-defibit-io
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed3.defibit.io
     interval: 300
   - name: bsc-dataseed4-defibit-io
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed4.defibit.io
     interval: 300
   - name: bsc-dataseed1-ninicoin-io
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed1.ninicoin.io
     interval: 300
   - name: bsc-dataseed2-ninicoin-io
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed2.ninicoin.io
     interval: 300
   - name: bsc-dataseed3-ninicoin-io
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed3.ninicoin.io
     interval: 300
   - name: bsc-dataseed4-ninicoin-io
     type: url-test
-    proxies: []
+    proxies: *ref_0
     url: https://bsc-dataseed4.ninicoin.io
     interval: 300
 rules:
