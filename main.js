@@ -31,10 +31,13 @@ const auto = [
 // console.log(Proxy2)
 
 const proxyGroups = []
+const rules = []
 
 for (const testUrl of auto) {
+  let name = testUrl.substring(8).substring(-1).split('.').join('-');
+
   proxyGroups.push({
-    name: testUrl,
+    name,
     type: 'url-test',
     proxies: [
 
@@ -42,10 +45,14 @@ for (const testUrl of auto) {
     url: testUrl,
     interval: 300,
   })
+
+  rules.push(`DOMAIN,${testUrl},${name}`)
 }
 
+
 const dump = yaml.dump({
-  'proxy-groups': proxyGroups
+  'proxy-groups': proxyGroups,
+  rules,
 });
 
 fs.writeFileSync("./so.yml", dump);
